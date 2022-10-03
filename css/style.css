@@ -17,6 +17,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 10px;
+  
  
 }
 
@@ -30,7 +31,7 @@ body {
 }
 /*div met ID vijf hebben we zo geschreven omdat het specifieker is omdat anders #flexbox div wint*/
 div#vijf{
-  position: relative;
+  position: absolute;
   left: 50px;
   bottom: 50px;
   background-color: chartreuse;
