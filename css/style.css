@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6em;
+}
+#flexbox {
+  margin: 100px auto;
+  width: 340px;
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 10px;
+ 
+}
+
+#flexbox div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  text-align: center;
+  line-height: 100px;
+  
+
+}
