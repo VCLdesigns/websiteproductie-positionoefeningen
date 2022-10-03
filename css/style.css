@@ -28,3 +28,10 @@ body {
   line-height: 100px; 
 
 }
+/*div met ID vijf hebben we zo geschreven omdat het specifieker is omdat anders #flexbox div wint*/
+div#vijf{
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  background-color: chartreuse;
+}
